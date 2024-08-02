@@ -1,10 +1,8 @@
 body {
   min-height: 2000px;
+  
 }
-.navbar .navbar-link {
-  font-size: larger;
-  font-family: "borel",sans-serif;
-}
+
 .slides{
   width: 100%;
   position: relative;
@@ -39,6 +37,110 @@ body {
 .slides .navigation .prev:hover, .slides .navigation .next:hover{
   background: rgba(0,0,0,1);
 }
+.mynavbar .navbar-brand 
+.navbar .offcanvas-header {
+  font-size: larger;
+  font-family: "borel",sans-serif;
+  font-weight: 100;
+}
+/* home */
+.home{
+  content: center;
+}
+.a.tbl-biru {
+  background: #dc6606;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #f06706;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: #e06d02;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #f97604;
+  text-decoration: none;
+}
+section {
+  margin: auto;
+  display: flex;justify-content: ;
+  margin-top:auto
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #364f6b;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto%;
+  }
+}
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+.a .wa button {
+  position:fixed;
+  right: 30px;
+  bottom: 5cqmin;
+  text-decoration: none;
+  color: black;
+
+}
+
 @keyframes fade {
   from{opacity: 0.3}
   to {opacity: 1}
